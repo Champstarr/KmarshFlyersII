@@ -19,20 +19,20 @@ body {
 }
 
 .header {
-  width: 100%;
+  flex: 1;
 
 }
 
 .mainContent {
-  width: 766px;
+  flex: 1;
 }
 
 .aside {
-  width: 474px;
+  flex: 0 0 300px;
 }
 
 .footer {
-  width: 100%;
+  flex: 1;
 }
 
 @media (max-width: 800px) {
