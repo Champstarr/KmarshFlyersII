@@ -20,6 +20,7 @@ body {
   border: 5px solid #58595A;
   /* border-image: linear-gradient(25deg, #ff0, #00f);
   border-image-slice: 1; */
+  border-style: solid;
   border-radius: 20px;
   border: double 0.5px transparent;
   background-image: linear-gradient(#EFEFE9, #EFEFE9),
