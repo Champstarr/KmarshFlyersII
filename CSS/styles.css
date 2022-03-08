@@ -21,7 +21,7 @@ body {
   /* border-image: linear-gradient(25deg, #ff0, #00f);
   border-image-slice: 1; */
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 30px;
   border: double 0.5px transparent;
   background-image: linear-gradient(#EFEFE9, #EFEFE9),
   linear-gradient(90deg, #ff0, #00f);
@@ -51,6 +51,12 @@ body {
 
 .aside {
   flex: 0 0 300px;
+}
+
+.aside > p {
+  line-height: 1.5em;
+  font-weight: bold;
+  padding: 15px;
 }
 
 .footer {
