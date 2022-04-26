@@ -12,12 +12,12 @@ body {
 
 .flex-container > div {
   background-color: #EFEFE9;
-  margin: 5px;
+  margin: 2px;
   text-align: center;
   line-height: 1.2em;
   font-size: 14px;
   padding: 15px;
-  border: 2px solid #58595A;
+  border: 1px solid #58595A;
   /* border-image: linear-gradient(25deg, #ff0, #00f);
   border-image-slice: 1; */
   border-style: solid;
@@ -31,7 +31,10 @@ body {
 
 .header {
   flex: 1;
-  background-image: url();
+  background-image: url("../images/img_2777.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
