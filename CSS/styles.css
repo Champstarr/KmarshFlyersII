@@ -38,6 +38,13 @@ body {
 
 }
 
+.header > h1 {
+  font-family: arial;
+  color: white;
+  opacity: 50%;
+
+}
+
 .topnav {
   flex: 1;
 }
