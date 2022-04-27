@@ -6,22 +6,22 @@ body {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  background-color: DodgerBlue;
+  background-color: #FFFF;
 
 }
 
 .flex-container > div {
-  background-color: #EFEFE9;
-  margin: 2px;
+  background-color: #FFFF;
+  /* margin: 1px; */
   text-align: center;
   line-height: 1.2em;
   font-size: 14px;
   padding: 15px;
-  border: 1px solid #58595A;
+  /* border: 0.5px solid #58595A; */
   /* border-image: linear-gradient(25deg, #ff0, #00f);
   border-image-slice: 1; */
-  border-style: solid;
-  border-radius: 30px;
+  /* border-style: solid;
+  border-radius: 30px; */
   /* border: double 0.5px transparent;
   background-image: linear-gradient(#EFEFE9, #EFEFE9),
   linear-gradient(90deg, #ff0, #00f);
@@ -32,7 +32,7 @@ body {
 .header {
   flex: 1;
   background-image: url("../images/img_2777.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -40,13 +40,16 @@ body {
 
 .header > h1 {
   font-family: arial;
-  color: white;
-  opacity: 50%;
-
+  color: #FAFDFF;
+  opacity: 80%;
+  margin-top: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .topnav {
   flex: 1;
+  background-color: #f9f9fb;
 }
 
 .topnav > a {
