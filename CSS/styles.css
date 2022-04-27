@@ -67,6 +67,11 @@ body {
   flex: 1;
 }
 
+.content {
+ background-color: #DFF2F8;
+ padding: 10px;
+}
+
 .weather {
   flex: 1;
   margin-bottom: 15px;
