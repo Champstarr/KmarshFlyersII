@@ -96,6 +96,10 @@ body {
   border-bottom: 1px solid #cdcdcd;
 }
 
+.footer > h2 {
+  color: #0E7FF0;
+}
+
 .socialIcon {
   color: #aaaaaa;
   margin-left: 10px;
