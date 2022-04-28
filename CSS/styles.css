@@ -11,7 +11,7 @@ body {
 }
 
 .flex-container > div {
-  background-color: #FFFF;
+  /* background-color: #FFFF; */
   /* margin: 1px; */
   text-align: center;
   line-height: 1.2em;
@@ -44,6 +44,7 @@ body {
   margin-top: 40px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  font-size: 80px;
 }
 
 .topnav {
@@ -74,7 +75,7 @@ body {
 
 .weather {
   flex: 1;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .aside {
@@ -89,6 +90,20 @@ body {
 
 .footer {
   flex: 1;
+  background-color: #f9f9fb;
+  text-align: center;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.socialIcon {
+  color: #aaaaaa;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+socialIcon:hover {
+  color: #0A56A3;
 }
 
 @media (max-width: 800px) {
