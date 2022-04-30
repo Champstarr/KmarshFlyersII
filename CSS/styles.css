@@ -64,6 +64,10 @@ body {
   text-decoration: none;
 }
 
+.topnav > a:hover {
+  color: #0E7FF0;
+}
+
 .mainContent {
   flex: 1;
 }
