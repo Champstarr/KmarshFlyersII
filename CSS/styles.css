@@ -75,6 +75,7 @@ body {
 .content {
  background-color: #DFF2F8;
  padding: 10px;
+ line-height: 1.5em;
 }
 
 .weather {
