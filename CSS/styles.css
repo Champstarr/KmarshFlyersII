@@ -75,7 +75,17 @@ body {
 .content {
  background-color: #DFF2F8;
  padding: 10px;
- line-height: 1.5em;
+ line-height: 150%;
+ font-size: large;
+}
+
+.story {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-style: dotted;
+  padding-top: 25px;
 }
 
 .weather {
